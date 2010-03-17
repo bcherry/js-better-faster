@@ -24,19 +24,19 @@
 	
 	// but this is very slow
 	
-!SLIDE
+!SLIDE process
 
 # here's what happens #
-
+---
 	@@@ javascript
 	SP.util.someFunction();
-
 
 1. lookup `SP` (more on that later)
 2. resolve property `gardening`
 3. resolve property `get_garden`
 4. execute function
 
+---
 ## imagine that in a loop! ##
 
 !SLIDE

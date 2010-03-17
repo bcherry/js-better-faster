@@ -56,6 +56,7 @@
 	
 	parent.appendChild(child);
 	grand.appendChild(parent);
+	document.body.appendChild(grand);
 
 !SLIDE subsection
 
@@ -72,7 +73,7 @@
 	
 	$(".myelems").remove();
 	
-	// shit, memory leak!
+	// aww snap, memory leak!
 ---
 ## was that really that surprising?
 

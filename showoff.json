@@ -1,10 +1,11 @@
 [
-	{"section": "title"},
+	// {"section": "title"},
 	// {"section": "jslang"},
 	// {"section": "pitfalls"},
 	// {"section": "inheritance"},
-	{"section": "dom"},
-	{"section": "timers"},
-	{"section": "pageload"}
-	
+	// {"section": "dom"},
+	// {"section": "timers"},
+	// {"section": "pageload"},
+	{"section": "tools"},
+	{"section": "resources"}
 ]
