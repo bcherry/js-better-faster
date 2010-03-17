@@ -1,9 +1,10 @@
 [
 	{"section": "title"},
-	{"section": "jslang"},
-	{"section": "pitfalls"},
-	{"section": "inheritance"},
+	// {"section": "jslang"},
+	// {"section": "pitfalls"},
+	// {"section": "inheritance"},
 	{"section": "dom"},
 	{"section": "timers"},
 	{"section": "pageload"}
+	
 ]
