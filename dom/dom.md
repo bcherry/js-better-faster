@@ -4,7 +4,7 @@
 
 ## it's absolutely terrible
 
-### but I have a three simple rules to make it better
+### but I have three simple rules to make it better
 
 !SLIDE subsection
 

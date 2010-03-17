@@ -31,7 +31,7 @@
 	@@@ javascript
 	SP.util.someFunction();
 
-1. lookup `SP` (more on that later)
+1. lookup `SP`
 2. resolve property `util`
 3. resolve property `someFunction`
 4. execute function

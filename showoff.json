@@ -3,6 +3,7 @@
 	{"section": "jslang"},
 	{"section": "pitfalls"},
 	{"section": "inheritance"},
+	{"section": "modules"},
 	{"section": "dom"},
 	{"section": "timers"},
 	{"section": "pageload"},
