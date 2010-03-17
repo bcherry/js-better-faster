@@ -32,8 +32,8 @@
 	SP.util.someFunction();
 
 1. lookup `SP` (more on that later)
-2. resolve property `gardening`
-3. resolve property `get_garden`
+2. resolve property `util`
+3. resolve property `someFunction`
 4. execute function
 
 ---
@@ -59,8 +59,9 @@
 
 !SLIDE
 
+# the slow way
+---
 	@@@ javascript
-	// slow
 	var foo = 1;
 	function bar() {
 		var i;
@@ -73,9 +74,10 @@
 ## `foo` is one step down the chain
 	
 !SLIDE
-	
+
+# faster
+---
 	@@@ javascript
-	// faster
 	var foo = 1;
 	function bar() {
 		var myFoo = foo, i;
@@ -174,13 +176,3 @@
 ## much slower (up to 100x) than using parameters
 ## `arguments` should be avoided if possible
 
-!SLIDE
-
-	@@@ javascript
-	function foo(a) {
-		return a;
-		arguments;
-	}
----
-## in fact, just its presence slows things down
-## because browsers optimize better without it
