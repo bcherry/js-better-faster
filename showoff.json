@@ -1,5 +1,9 @@
 [
-	 {"section": "title"},
-	 {"section": "jslang"},
-	{"section": "basicruntime"}
+	{"section": "title"},
+	{"section": "jslang"},
+	{"section": "pitfalls"},
+	{"section": "inheritance"},
+	{"section": "dom"},
+	{"section": "timers"},
+	{"section": "pageload"}
 ]
