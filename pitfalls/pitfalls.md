@@ -159,7 +159,7 @@
 		// ... someObject[key] ...
 	}
 ---
-## but if you must, do it this way if possible
+## this is much faster, and is preferred
 
 !SLIDE subsection
 

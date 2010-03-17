@@ -36,6 +36,7 @@
 
 # other tools
 
+* JSLint (JavaScript syntax checker) <http://jslint.com/>
 * YSlow (Firebug extension) <http://developer.yahoo.com/yslow/>
 * Page Speed (Firebug extension) <http://code.google.com/speed/page-speed/>
 * Speed Tracer (Chrome extension) <http://code.google.com/webtoolkit/speedtracer/>

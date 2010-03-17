@@ -1,6 +1,10 @@
 !SLIDE
 # JavaScript: Better and Faster #
 
+## Ben Cherry
+
+### SuperPoke! Pets Performance Engineer
+
 !SLIDE overview
 
 # what we'll cover

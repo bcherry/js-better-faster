@@ -4,7 +4,7 @@
 
 ## it's absolutely terrible
 
-### but I have a series of simple rules to make it better
+### but I have a three simple rules to make it better
 
 !SLIDE subsection
 
@@ -23,6 +23,8 @@
 	elem.detach();
 	// ... muck with elem and sub-elements ...
 	parent.append(elem);
+---
+### `.detach()` is new in jQuery 1.4
 
 !SLIDE
 
