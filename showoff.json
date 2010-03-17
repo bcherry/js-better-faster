@@ -1,4 +1,5 @@
 [
-	{"section": "title"},
-	{"section": "jslang"}
+	 {"section": "title"},
+	 {"section": "jslang"},
+	{"section": "basicruntime"}
 ]
