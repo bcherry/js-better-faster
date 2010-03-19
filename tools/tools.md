@@ -4,10 +4,10 @@
 
 !SLIDE
 
-# SP.Performance.profiler
+# my JavaScript profiler
 ---
 	@@@ javascript
-	var profiler = SP.Performance.profiler();
+	var profiler = performance.newProfiler();
 	function foo() {
 		profiler.begin("body");
 		// ... some operations ...
@@ -16,21 +16,7 @@
 	// ... repeated calls to foo() ...
 	profiler.report(); // alerts time spent in "body"
 ---
-## allows complex instrumentation
-
-!SLIDE 
-# apps.pet.dependencies
----
-	@@@ python
-	B('fb_lib.js',
-		I('js/fb_superpet.js'),
-		# ...
-	)
----
-	@@@ python
-	$apps.pet.dependencies.include('fb_lib.js')
----
-## handles minification on live, raw scripts on dev
+## source at <http://gist.github.com/322060>
 
 !SLIDE biblioteca
 

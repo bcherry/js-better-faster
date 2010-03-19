@@ -3,7 +3,7 @@
 
 ## Ben Cherry
 
-### SuperPoke! Pets Performance Engineer
+### Performance Engineer at Slide, Inc.
 
 !SLIDE overview
 

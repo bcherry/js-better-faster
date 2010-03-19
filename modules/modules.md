@@ -2,14 +2,14 @@
 
 # modules
 
-## how to make `SP.util`?
+## how to make `BC.util`?
 
 ### _not_ the same as inheritance
 
 !SLIDE
 
 	@@@ javascript
-	SP.util = (function (SP) {
+	BC.util = (function (BC) {
 		var util = {},
 			foo; // private variable
 		
@@ -20,6 +20,6 @@
 		function someOther() {}
 		
 		return util;
-	}(SP));
+	}(BC));
 ---
 ## this a fast, reusable pattern

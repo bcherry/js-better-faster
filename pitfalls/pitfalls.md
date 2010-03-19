@@ -12,15 +12,15 @@
 ## Python ##
 
 	@@@ python
-	import apps.pet.util
-	apps.pet.util.some_function()
+	import bc.util
+	bc.util.some_function()
 
 	# this is quite fast
 ---
 ## JavaScript ##
 
 	@@@ javascript
-	SP.util.someFunction();
+	BC.util.someFunction();
 	
 	// but this is very slow
 	
@@ -29,9 +29,9 @@
 # here's what happens #
 ---
 	@@@ javascript
-	SP.util.someFunction();
+	BC.util.someFunction();
 
-1. lookup `SP`
+1. lookup `BC`
 2. resolve property `util`
 3. resolve property `someFunction`
 4. execute function
@@ -44,7 +44,7 @@
 # store that reference #
 ---
 	@@@ javascript
-	var some_function = SP.util.some_function,
+	var some_function = BC.util.some_function,
 		i;
 	
 	for (i = 0; i < 1000000; i += 1) {
